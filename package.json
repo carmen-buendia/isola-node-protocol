@@ -1,0 +1,11 @@
+{
+  "name": "isola-node-protocol",
+  "version": "0.0.1",
+  "private": "true",
+  "description": "Open-source, local-first synchronization protocol for sovereign data on edge devices",
+  "scripts": {
+    "type-check": "pnpm -r type-check",
+    "test": "pnpm -r test"
+  },
+  "packageManager": "pnpm@9.15.0"
+}

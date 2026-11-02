@@ -1,0 +1,22 @@
+{
+  "name": "@isola-node/sync",
+  "version": "0.0.1",
+  "description": "Offline-first edge-to-cloud synchronization layer for constrained devices. Domain-agnostic, standards-compliant (MQTT, CoAP).",
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "license": "Apache-2.0",
+  "author": "Carmen María Buendía Sámchez",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "default": "./src/index.ts"
+    }
+  },
+  "scripts": {
+    "type-check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
