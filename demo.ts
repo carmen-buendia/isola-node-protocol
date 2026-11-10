@@ -1,11 +1,8 @@
 // demo.ts
-import { createAdapter } from "./packages/adapters/src/registry.js";
-import { decide } from "./packages/rule-engine/src/engine.js";
-import type {
-  EngineInput,
-  EngineRule,
-} from "./packages/rule-engine/src/types.js";
-import type { EvidenceAdapter } from "./packages/rule-engine/src/adapter.js";
+import { createAdapter } from "./packages/adapters/src/registry";
+import { decide } from "./packages/rule-engine/src/engine";
+import type { EngineInput, EngineRule } from "./packages/rule-engine/src/types";
+import type { EvidenceAdapter } from "./packages/rule-engine/src/adapter";
 
 // 1. Define the rules of the engine (simulating those a farmer would have).
 const farmRules: EngineRule[] = [
@@ -43,7 +40,7 @@ const sensorAdapter = createAdapter({
       sourceId: "sensor-01",
     },
   ],
-  getTimestamp: (r) => r.timestamp,
+  getTimestamp: (reading: { timestamp: string }) => reading.timestamp,
 });
 
 // 3. Adapter for the Rule Engine (tells it how to read the data).

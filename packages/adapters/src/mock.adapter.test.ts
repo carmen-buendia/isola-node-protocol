@@ -1,7 +1,7 @@
 // packages/adapters/src/mock.adapter.test.ts
 
 import { describe, it, expect } from "vitest";
-import { MockDataAdapter } from "./mock.adapter.js";
+import { MockDataAdapter } from "./mock.adapter";
 
 // A simple type to simulate a sensor reading.
 type TemperatureReading = {

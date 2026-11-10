@@ -1,6 +1,6 @@
 // packages/rule-engine/src/adapter.ts
 
-import type { InputConflict } from "./types.js";
+import type { InputConflict } from "./types";
 
 /**
  * The interface that allows the rule engine to read your specific data.
