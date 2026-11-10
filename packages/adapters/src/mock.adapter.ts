@@ -1,6 +1,6 @@
 // packages/adapters/src/mock.adapter.ts
 
-import type { AdapterMetadata, DataAdapter, Query } from "./types.js";
+import type { AdapterMetadata, DataAdapter, Query } from "./types";
 
 /**
  * A simple, in-memory adapter used for testing.

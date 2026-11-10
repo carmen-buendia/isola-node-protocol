@@ -87,7 +87,7 @@ The engine evaluates rules using standard logic (AND). If all the conditions of 
 
 - **Confidence:** A score from 0 to 1, which decreases if there are conflicting data sources (for example, if the sensor says one thing and the satellite says another).
 
-The package has no runtime dependencies. It is written in pure TypeScript and can run on Node.js, Deno, Bun or edge environments such as Cloudflare Workers.
+The package has no runtime dependencies. It is written in pure TypeScript and can run on Node, Deno, Bun or edge environments such as Cloudflare Workers.
 
 ## Licence.
 

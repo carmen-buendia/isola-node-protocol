@@ -6,8 +6,8 @@ import type {
   EngineOutput,
   RuleCondition,
   InputConflict,
-} from "./types.js";
-import type { EvidenceAdapter } from "./adapter.js";
+} from "./types";
+import type { EvidenceAdapter } from "./adapter";
 
 export interface EngineOptions {
   /** Custom weights for specific rules (overrides the default weight of 1.0). */

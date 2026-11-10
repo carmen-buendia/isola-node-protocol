@@ -1,6 +1,6 @@
 // packages/adapters/src/sensor.adapter.ts
 
-import type { AdapterMetadata, DataAdapter, Query } from "./types.js";
+import type { AdapterMetadata, DataAdapter, Query } from "./types";
 
 /**
  * Adapter for physical IoT hardware (Planned for v2: Arduino, ESP32, etc).

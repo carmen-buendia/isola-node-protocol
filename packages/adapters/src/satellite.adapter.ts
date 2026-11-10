@@ -5,7 +5,7 @@ import type {
   AreaOfInterest,
   DataAdapter,
   Query,
-} from "./types.js";
+} from "./types";
 
 /**
  * Adapter for satellite data (Planned for v2: Copernicus Sentinel).

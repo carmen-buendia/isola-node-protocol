@@ -1,9 +1,9 @@
 // packages/adapters/src/registry.ts
 
-import type { AdapterConfig, DataAdapter } from "./types.js";
-import { MockDataAdapter } from "./mock.adapter.js";
-import { SensorDataAdapter } from "./sensor.adapter.js";
-import { SatelliteDataAdapter } from "./satellite.adapter.js";
+import type { AdapterConfig, DataAdapter } from "./types";
+import { MockDataAdapter } from "./mock.adapter";
+import { SensorDataAdapter } from "./sensor.adapter";
+import { SatelliteDataAdapter } from "./satellite.adapter";
 
 /**
  * The Adapter Factory.
